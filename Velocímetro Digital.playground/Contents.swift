@@ -54,18 +54,8 @@ class Auto {
                 velocidad = .VelocidadMedia
             } else if velocidad == .VelocidadMedia {
                 velocidad = .VelocidadAlta
-            } else {cambios = false
-                velocidad = .VelocidadBaja
-            }
-        }else {
-            if velocidad == .VelocidadAlta {
+            } else if velocidad == .VelocidadAlta {
                 velocidad = .VelocidadMedia
-            } else if velocidad == .VelocidadMedia {
-                velocidad = .VelocidadBaja
-            } else if velocidad == .VelocidadBaja {
-                velocidad = .Apagado
-            } else {cambios = true
-                velocidad = .VelocidadBaja
             }
         }
         
